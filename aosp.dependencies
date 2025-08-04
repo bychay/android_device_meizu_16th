@@ -1,0 +1,22 @@
+[
+    {
+     	"repository": "device_meizu_sdm845-common",
+        "target_path": "device/meizu/sdm845-common"
+    },
+    {
+     	"repository": "device_meizu_16th",
+        "target_path": "device/meizu/16th"
+    },
+    {
+     	"repository": "vendor_meizu_16th",
+        "target_path": "vendor/meizu/16th"
+    }
+    {
+        "repository": "kernel_meizu_sdm845",
+        "target_path": "kernel/meizu/sdm845"
+    }
+    {
+        "repository": "packages_apps_memecam",
+        "target_path": "packages/apps/memecam"
+    }
+]
