@@ -17,13 +17,6 @@ vendor/lib/libacdbloader.so
 # ADSP modules
 vendor/lib/rfsa/adsp/dirac_resource.dar
 
-# Audio (speaker amplifier) firmware
-vendor/firmware/tas2559_uCDSP.bin
-
-# Audio (speaker amplifier) calibration
-vendor/etc/tas2559_l.ftcfg
-vendor/etc/tas2559_r.ftcfg
-
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
