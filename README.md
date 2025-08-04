@@ -13,11 +13,11 @@ Device configuration for Meizu 16th
 | Memory       | 6 GB / 8 GB RAM (LPDDR4X)                                       |
 | Android      | 8.1.0 / 10.0 (vndk27)                                           |
 | Storage      | 64 GB / 128 GB                                                  |
-| Battery      | Non-removable Li-Po 3100 mAh                                    |
-| Dimensions   | 151.2 x 74.6 x 7.8 mm                                           |
-| Display      | 2220 x 1080 px                                                  |
-| Rear camera  | 12 MPx + 20 MPx                                                 |
-| Front camera | 20 MPx                                                          |
+| Battery      | Non-removable Li-Po 3100 mAh           |
+| Dimensions   | 151 x 73.5 x 7.5 mm                    |
+| Display      | 2160 x 1080 px, 6.0 inches (402 PPI)   |
+| Rear camera  | 12 MPx, f/1.8 + 20 MPx, f/2.6          |
+| Front camera | 20 MPx, f/2.0                          |
 
 ## Device picture
 
