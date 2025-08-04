@@ -150,7 +150,6 @@ vendor/lib/libc++_shared.so
 vendor/lib/libFaceGrade.so
 vendor/lib/libft2vendor.so
 vendor/lib/libmdsprpc.so
-vendor/lib/libmibokeh_845.so
 vendor/lib/libmmcamera_faceproc.so
 vendor/lib/libmmcamera_faceproc2.so
 vendor/lib/libmpbase.so
@@ -165,7 +164,6 @@ vendor/lib/libsymphonypower.so
 vendor/lib/libtonemapalgo.so
 vendor/lib/libvidhance.so
 vendor/lib/libXMFD_AgeGender.so
-vendor/lib/mibokeh_845_opencl.bin
 
 # Camera firmware
 vendor/firmware/CAMERA_ICP.elf
@@ -332,3 +330,9 @@ vendor/lib64/liboemcrypto.so
 vendor/lib64/libwvkeybox.so
 vendor/lib/liboemcrypto.so
 vendor/lib/libwvkeybox.so
+
+# Vibrator
+vendor/firmware/coin_ring.bin
+vendor/firmware/defalm_ring.bin
+vendor/firmware/defsim_ring.bin
+vendor/lib64/hw/vibrator.default.so:vendor/lib64/hw/vibrator.sdm845.so
