@@ -14,8 +14,8 @@ fi
 
 set -e
 
-export DEVICE=beryllium
+export DEVICE=16th
 export DEVICE_COMMON=sdm845-common
-export VENDOR=xiaomi
+export VENDOR=meizu
 
 "./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"
