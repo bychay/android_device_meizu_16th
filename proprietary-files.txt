@@ -1,4 +1,4 @@
-# Device proprietary files - from beryllium's MIUI package V12.0.3.0.QEJMIXM global stable version
+# Device proprietary files
 
 # ACDB
 vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
