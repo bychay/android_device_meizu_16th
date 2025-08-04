@@ -168,7 +168,6 @@ vendor/lib/libXMFD_AgeGender.so
 vendor/lib/mibokeh_845_opencl.bin
 
 # Camera firmware
-vendor/firmware/bu64748gwz.prog
 vendor/firmware/CAMERA_ICP.elf
 
 # Display configs
@@ -198,7 +197,7 @@ vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so|a27bdc49e85976faa5785b175c92df5
 vendor/lib/vendor.qti.hardware.fm@1.0.so|ec14a34ecae5061d674283499a812374c8be4ce5
 
 # GNSS - from PNX - RKQ1.200906.002
-vendor/bin/hw/android.hardware.gnss@2.1-service-qti|bd3d5174f69cf65047c8d8b159554515b0f3d022
+vendor/bin/hw/android.hardware.gnss@2.0-service-qti|bd3d5174f69cf65047c8d8b159554515b0f3d022
 vendor/bin/loc_launcher|bf13787d95c2fec6fadb2552fa63b12ab606575c
 vendor/bin/lowi-server|1898971a9a10d8a849a436e1bcbf1ab60b8ac0de
 vendor/bin/mlid|1345e5df78c7fb2583af0c4e046ae6d21a4e75da
@@ -206,22 +205,19 @@ vendor/bin/slim_daemon|5c1ae25efa727d52ad19826f94eb695d9c3c540c
 vendor/bin/xtra-daemon|5cfbfc2ba4e9f18e966987662471c5bfa737dcaa
 vendor/bin/xtwifi-client|442e0c8166eea0a0d6cfd9432f945faa59c34d80
 vendor/bin/xtwifi-inet-agent|f805841e5c8ca3b0af620486a64a37148daa0980
-vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc|d3844699c845ce5de4c8b50548a2095f92dd0235
--vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml|1c344aacaa6d17a1585ba58b2e6d438dcfe31fad
--vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml|6514b13f55abc0acc28e004c35ff93fb972d61a9
+vendor/etc/init/android.hardware.gnss@2.0-service-qti.rc|d3844699c845ce5de4c8b50548a2095f92dd0235
+-vendor/etc/vintf/manifest/android.hardware.gnss@2.0-service-qti.xml|1c344aacaa6d17a1585ba58b2e6d438dcfe31fad
+-vendor/etc/vintf/manifest/vendor.qti.gnss@3.0-service.xml|6514b13f55abc0acc28e004c35ff93fb972d61a9
 vendor/etc/cacert_location.pem|0789bf799c7e45d352a83e2f79ddb0cea86db85b
 vendor/etc/xtra_root_cert.pem|f55a31ec4d9cf8ce2724acadecf00c779f8767db
-vendor/lib/hw/android.hardware.gnss@2.1-impl-qti.so|514c684a9017332644ef55aecaf321b823daf15e
-vendor/lib/hw/vendor.qti.gnss@4.0-impl.so|c4218405b690c3bea6ccc52e74b8dd321be9ce31
+vendor/lib/hw/android.hardware.gnss@2.0-impl-qti.so|514c684a9017332644ef55aecaf321b823daf15e
+vendor/lib/hw/vendor.qti.gnss@3.0-impl.so|c4218405b690c3bea6ccc52e74b8dd321be9ce31
 vendor/lib/libaoa.so|502cbb20f5531e9e79dbc12bcb5edf0b7dc994ec
 vendor/lib/libbatching.so|635e4548c9d23d4648dfc65bcef84229979a83da
 vendor/lib/libcacertclient.so|1d9c1fc6b730810fbb800d8cc20aa2b352233998
 vendor/lib/libdataitems.so|a7bfc8331422c64a561de26b1e63eb475f7c0fa5
 vendor/lib/libgdtap.so|b08005436f55e34adc61eb4f6b9658a4114b459d
 vendor/lib/libgeofencing.so|b1dcca9580e89da3c78ad91a5309cae155509d88
-vendor/lib/libgnss.so|7fd4db5cdd706d725da7a0b0863f96acea0ded7d
-vendor/lib/libgnsspps.so|8733dcb7fd4a4374c6547a5d8346de527c8cd496
-vendor/lib/libgps.utils.so|6a9372f12172dcc94bfffee1c17c784127330f08
 vendor/lib/libizat_client_api.so|c79f9082521e3dff14626ef9d36473c87af1088e
 vendor/lib/libizat_core.so|ffba4f88f1d706df0294f4a3ddf34ed1a0d06fae
 vendor/lib/liblbs_core.so|a91fa332efa95c36242a398484e352c7debb19b4
@@ -235,16 +231,8 @@ vendor/lib/liblowi_wifihal.so|604fcad97238fbe9af7ea697883ee71605195a2b
 vendor/lib/libminksocket.so|ca2b0e83ca681ff4f71f43d6627e7a3ec8f3d645
 vendor/lib/libslimclient.so|d4efa62a20552c6665844be3e732d67cdb0e9b27
 vendor/lib/libxtadapter.so|96e8d09c97adeeb943b41c3b0cebaa39cf120ffd
-vendor/lib/vendor.qti.gnss@1.0.so|b514e1d781b9408ac94436c439fa3da22be7b72c
-vendor/lib/vendor.qti.gnss@1.1.so|542572f61057f6a0e3484dd5c2cffa55b1a58f30
-vendor/lib/vendor.qti.gnss@1.2.so|c828525a8a18ba121cea03277dbfe2903b995c8b
-vendor/lib/vendor.qti.gnss@2.0.so|05bffd6d5aee75d3e9a0f22c69812f34acb09eb3
-vendor/lib/vendor.qti.gnss@2.1.so|107d8b865f2e96da8958c365d557c9d01fa30c34
-vendor/lib/vendor.qti.gnss@3.0.so|6978e91dddcb88f415c35ffeb37a9c55d9a3268d
-vendor/lib/vendor.qti.gnss@4.0-service.so|981cb921a5cdf66fd6b4af854e2e817c2e4a9fdc
-vendor/lib/vendor.qti.gnss@4.0.so|fa07168d9a64393efee9b8b6eeae705e34565d23
-vendor/lib64/hw/android.hardware.gnss@2.1-impl-qti.so|6e4305828e4d42111aaa28167f0d260bfa13b83d
-vendor/lib64/hw/vendor.qti.gnss@4.0-impl.so|b94476f03424846bcf2bcecbf290d992a5cdbc09
+vendor/lib64/hw/android.hardware.gnss@2.0-impl-qti.so|6e4305828e4d42111aaa28167f0d260bfa13b83d
+vendor/lib64/hw/vendor.qti.gnss@3.0-impl.so|b94476f03424846bcf2bcecbf290d992a5cdbc09
 vendor/lib64/libaoa.so|548073afa1ce13cb9d9b252dd933e91d835f02d8
 vendor/lib64/libbatching.so|eafd89f91d275c9946a66f0f322ea4c0fa1cc5d0
 vendor/lib64/libcacertclient.so|90281ef665d6a66ad7aa0806d97c20866fe1a83d
@@ -274,8 +262,7 @@ vendor/lib64/vendor.qti.gnss@1.2.so|e0b46a905d1aa17b6667bcbec42bce60a03129c1
 vendor/lib64/vendor.qti.gnss@2.0.so|60f8a7f1cfd27da6394373e9b34e733b3701ad04
 vendor/lib64/vendor.qti.gnss@2.1.so|391a0e7bdd477ba519aaddc1b0711840e3362dc8
 vendor/lib64/vendor.qti.gnss@3.0.so|b67a1ff507cfb4165a9dc970dc54aa26cc731e6f
-vendor/lib64/vendor.qti.gnss@4.0-service.so|3c75d133af5193436167380aa89abcf05d079968
-vendor/lib64/vendor.qti.gnss@4.0.so|7d343c73e6720434045cc38ea0e570ae9d03cd51
+vendor/lib64/vendor.qti.gnss@3.0-service.so|3c75d133af5193436167380aa89abcf05d079968
 
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@3.0-service-qti
