@@ -26,5 +26,8 @@
 
     <!-- The radius of the enrollment progress bar, in dp -->
     <integer name="config_udfpsEnrollProgressBar" translatable="false">98</integer>
-
+     
+    <!-- Proximiry sensor enable -->
+    <bool name="doze_proximity_check_before_pulse">true</bool>
+    <bool name="doze_proximity_sensor_supported">true</bool>
 </resources>
