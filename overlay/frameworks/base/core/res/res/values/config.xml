@@ -25,18 +25,6 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- Udfps fod meizu 16. -->
-    <string-array name="config_udfps_enroll_stage_thresholds">
-        <item>0.25</item>
-        <item>0.5</item>
-        <item>0.75</item>
-    </string-array>
-    <integer-array name="config_udfps_sensor_props">
-        <item>542</item>
-        <item>1686</item>
-        <item>87</item>
-    </integer-array>
-
     <!-- Enable overlay for all location components. -->
     <bool name="config_enableNetworkLocationOverlay" translatable="false">false</bool>
 
@@ -53,7 +41,7 @@
 
     <!-- Control whether the always on display mode is enabled by default. This value will be used
          during initialization when the setting is still null. -->
-    <bool name="config_dozeAlwaysOnEnabled">false</bool>
+    <bool name="config_dozeAlwaysOnEnabled">true</bool>
 
     <!-- Whether the display blanks itself when transitioning from a doze to a non-doze state -->
     <bool name="config_displayBlanksAfterDoze">true</bool>
