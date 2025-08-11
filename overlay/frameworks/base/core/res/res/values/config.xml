@@ -25,6 +25,12 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <integer-array name="config_udfps_sensor_props">
+        <item>542</item>
+        <item>1686</item>
+        <item>87</item>
+    </integer-array>
+	
     <!-- Enable overlay for all location components. -->
     <bool name="config_enableNetworkLocationOverlay" translatable="false">false</bool>
 
