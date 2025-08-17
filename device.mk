@@ -105,5 +105,5 @@ PRODUCT_PACKAGES += \
     vendor.meizu.hardware.inscreen.hal
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/meizu-hals/doze/vendor.meizu.hardware.doze.hal.rc:vendor/etc/init/vendor.meizu.hardware.doze.hal.rc \
-    $(LOCAL_PATH)/meizu-hals/doze/vendor.meizu.hardware.inscreen.hal.rc:vendor/etc/init/vendor.meizu.hardware.inscreen.hal.rc
+    $(LOCAL_PATH)/meizu-hals/hbm/vendor.meizu.hardware.inscreen.hal.rc:vendor/etc/init/vendor.meizu.hardware.inscreen.hal.rc
 
