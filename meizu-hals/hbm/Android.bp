@@ -1,7 +1,9 @@
 cc_binary {
     name: "vendor.meizu.hardware.inscreen.hal",
+    init_rc: ["vendor.meizu.hardware.inscreen.hal.rc"],
     srcs: ["vendor.meizu.hardware.inscreen.hal.c"],
     cflags: ["-Wall", "-Werror"],
     shared_libs: ["libc", "liblog"],
     vendor: true,
+
 }
