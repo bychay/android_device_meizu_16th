@@ -1,0 +1,7 @@
+cc_binary {
+    name: "vendor.meizu.hardware.doze.hal",
+    srcs: ["vendor.meizu.hardware.doze.hal.c"],
+    cflags: ["-Wall", "-Werror"],
+    shared_libs: ["libc", "liblog"],
+    vendor: true,
+}
