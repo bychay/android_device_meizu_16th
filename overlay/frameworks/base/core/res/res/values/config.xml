@@ -24,12 +24,6 @@
      entries do not follow the convention, but all new entries should. -->
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
-    <integer-array name="config_udfps_sensor_props">
-        <item>542</item>
-        <item>1686</item>
-        <item>87</item>
-    </integer-array>
 	
     <!-- Enable overlay for all location components. -->
     <bool name="config_enableNetworkLocationOverlay" translatable="false">false</bool>
@@ -249,10 +243,10 @@
     </string-array>
 
     <!-- The properties of a UDFPS sensor in pixels, in the order listed below: -->
-    <integer-array name="config_udfps_sensor_props" translatable="false" >
-        <item>540</item>
+    <integer-array name="config_udfps_sensor_props">
+        <item>542</item>
         <item>1686</item>
-        <item>93</item>
+        <item>87</item>
     </integer-array>
 
      <!-- How long it takes for the HW to start illuminating after the illumination is requested. -->
